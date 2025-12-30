@@ -1,12 +1,3 @@
-"""
-This script does the following:
-1. Loads real measurement data from CSV.
-2. Initializes the CalibrationModel.
-3. Creates the cost() wrapper.
-4. Configures and runs PSO.
-5. Prints and saves optimization results.
-
-"""
 
 import numpy as np
 import pandas as pd 
@@ -725,6 +716,7 @@ if __name__ == "__main__":
         B_ref
     )
 '''
+
 
 
 
